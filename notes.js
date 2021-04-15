@@ -6,6 +6,8 @@ vue --version
 
 Now Create Project
 vue create blog
+Or
+vue init webpack myproject
 choose default option
 
 npm run serve
