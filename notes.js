@@ -11,6 +11,8 @@ vue init webpack myproject
 choose default option
 
 npm run serve
+or
+npm run dev
 
 
 What Is component:-
