@@ -165,12 +165,6 @@ export default {
 Which Number Is Greater using if Condition:- RND
 <template>
 <div>
-	<h2>It's Home Component</h2>
-	<h6>{{data}}</h6>
-	<h3><button v-on:click="hello">Click Me</button></h3>
-	<h6 v-if="show">This Is IF PART</h6>
-	<h6 v-else="show">This Is ELSE PART</h6>
-
 	<h1 v-if="a>10">A Is Greater Then 10</h1>
 	<h1 v-if="a<10">A Is Less Then 10</h1>
 	<h1 v-if="a==10">A Is Equal To 10</h1>
@@ -182,15 +176,8 @@ export default {
 	props:{
 		data:String
 	},
-	methods:{
-		hello()
-		{
-			alert('Workingggg')
-		}
-	},data(){
-		return {a:9}
-	},data(){
-		return {show:false}
+	data(){
+		return {a:15}
 	}
 	
 }
